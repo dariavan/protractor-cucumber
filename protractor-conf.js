@@ -15,9 +15,6 @@ exports.config = {
     'browserName': process.env.BROWSER,
     chromeOptions: {
       args: [platforms[process.env.PLATFORM]]
-    },
-    firefoxOptions: {
-      args: [platforms[process.env.PLATFORM]]
     }
   },
 
